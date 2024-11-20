@@ -1,0 +1,93 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Fondo gris claro */
+    color: #333; /* Texto gris oscuro */
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #b88a44; /* Dorado */
+    color: #fff; /* Texto blanco */
+    text-align: center;
+    padding: 20px;
+}
+
+header .logo {
+    max-width: 120px; /* Tamaño máximo del logo */
+    margin-bottom: 15px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Navegación */
+nav {
+    background-color: #5a5a5a; /* Gris medio */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #b88a44; /* Dorado */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff; /* Fondo blanco para contraste */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #b88a44; /* Dorado */
+}
+
+blockquote {
+    font-style: italic;
+    background: #f9f9f9; /* Fondo gris muy claro */
+    border-left: 5px solid #b88a44; /* Borde dorado */
+    margin: 20px 0;
+    padding: 10px 15px;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    background-color: #5a5a5a; /* Gris medio */
+    color: white; /* Texto blanco */
+    padding: 15px;
+    margin-top: 20px;
+}
